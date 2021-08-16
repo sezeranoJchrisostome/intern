@@ -1,0 +1,5 @@
+admin useremail: kimainyi@gmail.com 
+       password: admin
+   
+replace chris with root  for the connection in include/module and password='';
+   

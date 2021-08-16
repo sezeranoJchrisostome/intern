@@ -1,0 +1,14 @@
+[25-Nov-2019 12:42:39 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in C:\xampp\htdocs\internship\home.php on line 24
+[25-Nov-2019 12:42:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\internship\home.php:1) in C:\xampp\htdocs\internship\home.php on line 1076
+[25-Nov-2019 12:45:55 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in C:\xampp\htdocs\internship\home.php on line 24
+[25-Nov-2019 12:45:55 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\xampp\htdocs\internship\home.php:1) in C:\xampp\htdocs\internship\home.php on line 1076
+[25-Nov-2019 12:46:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\internship\include\module.php:37
+Stack trace:
+#0 C:\xampp\htdocs\internship\index.php(139): conn->login('kimainyi@gmail....', 'admin')
+#1 {main}
+  thrown in C:\xampp\htdocs\internship\include\module.php on line 37
+[25-Nov-2019 12:46:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in C:\xampp\htdocs\internship\include\module.php:37
+Stack trace:
+#0 C:\xampp\htdocs\internship\index.php(139): conn->login('kimainyi@gmail....', 'admin')
+#1 {main}
+  thrown in C:\xampp\htdocs\internship\include\module.php on line 37
